@@ -1,4 +1,4 @@
-# Serverless lightweight dockker image
+# Serverless lightweight docker image
 
 A lightweight serverless docker image.
 
