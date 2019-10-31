@@ -1,7 +1,7 @@
 # Serverless lightweight docker image
 
-A lightweight serverless docker image.
-DockerHub reference on this [link](https://hub.docker.com/r/calima/serverless-docker)
+A lightweight serverless docker image.<br>
+DockerHub reference on this [link](https://hub.docker.com/r/calima/serverless-docker).
 
 ## Usage
 
@@ -20,8 +20,8 @@ docker run --rm -it -e AWS_PROFILE=$AWS_PROFILE -v $PWD:/<working-dir> -v ~/shar
 
 ### Running using AWS Credentials
  
-``
+```console
 docker run --rm -it -e AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID} -e AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY} -v $PWD:/<working-dir> -w /<working-dir> calima/serverless-docker serverless deploy
-`` 
+``` 
  
  
